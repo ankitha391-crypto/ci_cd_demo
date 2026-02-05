@@ -1,5 +1,4 @@
-def add(a, b):
-    return a + b
-
 def divide(a, b):
-    return a / b   # ❌ Bug: division by zero not handled
+    if b == 0:
+        return 0   # handle division by zero safely
+    return a / b
