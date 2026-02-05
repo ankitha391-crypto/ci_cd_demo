@@ -1,4 +1,7 @@
+def add(a, b):
+    return a + b
+
 def divide(a, b):
     if b == 0:
-        return 0   # handle division by zero safely
+        return 0
     return a / b
